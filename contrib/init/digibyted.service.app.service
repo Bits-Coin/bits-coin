@@ -1,0 +1,25 @@
+# It is not recommended to modify this file in-place, because it will
+# be overwritten during package upgrades. If you want to add further
+# options or overwrite existing ones then use
+# $ systemctl edit bitscoind.service
+# See "man systemd.service" for details.
+
+# Note that almost all daemon options could be specified in
+# /etc/bitscoin/bitscoin.conf
+
+[Unit]
+Description=BitsCoin daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/bitscoind -daemon -conf=/etc/bitscoin/bitscoin.conf -pid=/run/bitscoind/bitscoind.pid
+# Creates /run/bitscoind owned by bitscoin
+RuntimeDirectory=bitscoind
+User=bitscoin
+Type=forking
+PIDFile=/run/bitscoind/bitscoind.pid
+Restart=on-failure
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

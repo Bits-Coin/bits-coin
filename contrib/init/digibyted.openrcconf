@@ -1,0 +1,33 @@
+# /etc/conf.d/bitscoind: config file for /etc/init.d/bitscoind
+
+# Config file location
+#DIGIBYTED_CONFIGFILE="/etc/bitscoin/bitscoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $DIGIBYTED_USER)
+#DIGIBYTED_PIDDIR="/var/run/bitscoind"
+
+# What filename to give the pidfile
+#DIGIBYTED_PIDFILE="${DIGIBYTED_PIDDIR}/bitscoind.pid"
+
+# Where to write bitscoind data (be mindful that the blockchain is large)
+#DIGIBYTED_DATADIR="/var/lib/bitscoind"
+
+# User and group to own bitscoind process
+#DIGIBYTED_USER="bitscoin"
+#DIGIBYTED_GROUP="bitscoin"
+
+# Path to bitscoind executable
+#DIGIBYTED_BIN="/usr/bin/bitscoind"
+
+# Nice value to run bitscoind under
+#DIGIBYTED_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#DIGIBYTED_OPTS=""
+
+# The timeout in seconds OpenRC will wait for bitscoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+DIGIBYTED_SIGTERM_TIMEOUT=60

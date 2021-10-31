@@ -1,0 +1,67 @@
+#!/bin/bash
+#
+#  bitscoind The bitscoin core server.
+#
+#
+# chkconfig: 345 80 20
+# description: bitscoind
+# processname: bitscoind
+#
+
+# Source function library.
+. /etc/init.d/functions
+
+# you can override defaults in /etc/sysconfig/bitscoind, see below
+if [ -f /etc/sysconfig/bitscoind ]; then
+        . /etc/sysconfig/bitscoind
+fi
+
+RETVAL=0
+
+prog=bitscoind
+# you can override the lockfile via DIGIBYTED_LOCKFILE in /etc/sysconfig/bitscoind
+lockfile=${DIGIBYTED_LOCKFILE-/var/lock/subsys/bitscoind}
+
+# bitscoind defaults to /usr/bin/bitscoind, override with DIGIBYTED_BIN
+bitscoind=${DIGIBYTED_BIN-/usr/bin/bitscoind}
+
+# bitscoind opts default to -disablewallet, override with DIGIBYTED_OPTS
+bitscoind_opts=${DIGIBYTED_OPTS--disablewallet}
+
+start() {
+    echo -n $"Starting $prog: "
+    daemon $DAEMONOPTS $bitscoind $bitscoind_opts
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && touch $lockfile
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc $prog
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && rm -f $lockfile
+    return $RETVAL
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status $prog
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: service $prog {start|stop|status|restart}"
+        exit 1
+        ;;
+esac

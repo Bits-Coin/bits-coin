@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=BitsCoin Core
+Comment=Connect to the BitsCoin P2P Network
+Comment[de]=Verbinde mit dem BitsCoin peer-to-peer Netzwerk
+Comment[fr]=BitsCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BitsCoin, eşten eşe kriptografik sanal para birimi
+Exec=bitscoin-qt %u
+Terminal=false
+Type=Application
+Icon=bitscoin128
+MimeType=x-scheme-handler/bitscoin;
+Categories=Office;Finance;
+StartupWMClass=BitsCoin-qt

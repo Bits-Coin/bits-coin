@@ -1,0 +1,6 @@
+usr/local/bin/bitscoin-qt usr/bin
+share/pixmaps/bitscoin32.xpm usr/share/pixmaps
+share/pixmaps/bitscoin16.xpm usr/share/pixmaps
+share/pixmaps/bitscoin128.png usr/share/pixmaps
+debian/bitscoin-qt.desktop usr/share/applications
+debian/bitscoin-qt.protocol usr/share/kde4/services/

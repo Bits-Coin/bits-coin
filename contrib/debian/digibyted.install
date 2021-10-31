@@ -1,0 +1,2 @@
+usr/local/bin/bitscoind usr/bin
+usr/local/bin/bitscoin-cli usr/bin

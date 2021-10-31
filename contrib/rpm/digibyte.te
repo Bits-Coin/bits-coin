@@ -1,0 +1,81 @@
+policy_module(bitscoin, 1.100.1)
+
+########################################
+#
+# Declarations
+#
+
+type bitscoin_t;
+type bitscoin_exec_t;
+init_daemon_domain(bitscoin_t, bitscoin_exec_t)
+
+permissive bitscoin_t;
+
+type bitscoin_initrc_exec_t;
+init_script_file(bitscoin_initrc_exec_t)
+
+type bitscoin_conf_t;
+files_type(bitscoin_conf_t)
+
+type bitscoin_var_lib_t;
+files_type(bitscoin_var_lib_t)
+
+type bitscoin_var_run_t;
+files_type(bitscoin_var_run_t)
+
+type bitscoin_port_t;
+corenet_port(bitscoin_port_t)
+
+########################################
+#
+# bitscoin local policy
+#
+allow bitscoin_t self:process { fork };
+
+allow bitscoin_t self:fifo_file rw_fifo_file_perms;
+allow bitscoin_t self:unix_stream_socket create_stream_socket_perms;
+
+manage_dirs_pattern(bitscoin_t, bitscoin_conf_t, bitscoin_conf_t)
+manage_files_pattern(bitscoin_t, bitscoin_conf_t, bitscoin_conf_t)
+
+manage_dirs_pattern(bitscoin_t, bitscoin_var_lib_t, bitscoin_var_lib_t)
+manage_files_pattern(bitscoin_t, bitscoin_var_lib_t, bitscoin_var_lib_t)
+files_var_lib_filetrans(bitscoin_t, bitscoin_var_lib_t, { dir file })
+
+manage_dirs_pattern(bitscoin_t, bitscoin_var_run_t, bitscoin_var_run_t)
+manage_files_pattern(bitscoin_t, bitscoin_var_run_t, bitscoin_var_run_t)
+
+sysnet_dns_name_resolve(bitscoin_t)
+corenet_all_recvfrom_unlabeled(bitscoin_t)
+
+allow bitscoin_t self:tcp_socket create_stream_socket_perms;
+corenet_tcp_sendrecv_generic_if(bitscoin_t)
+corenet_tcp_sendrecv_generic_node(bitscoin_t)
+corenet_tcp_sendrecv_all_ports(bitscoin_t)
+corenet_tcp_bind_generic_node(bitscoin_t)
+
+gen_require(`
+    type bitscoin_port_t;
+')
+allow bitscoin_t bitscoin_port_t:tcp_socket name_bind;
+
+gen_require(`
+    type bitscoin_port_t;
+')
+allow bitscoin_t bitscoin_port_t:tcp_socket name_connect;
+
+domain_use_interactive_fds(bitscoin_t)
+
+files_read_etc_files(bitscoin_t)
+
+miscfiles_read_localization(bitscoin_t)
+
+sysnet_dns_name_resolve(bitscoin_t)
+
+allow bitscoin_t bitscoin_exec_t:file execute_no_trans;
+allow bitscoin_t self:process setsched;
+corecmd_exec_ls(bitscoin_t)
+corenet_tcp_connect_http_port(bitscoin_t)
+dev_read_urand(bitscoin_t)
+fs_getattr_xattr_fs(bitscoin_t)
+kernel_read_system_state(bitscoin_t)
