@@ -1,19 +1,19 @@
 What is BitsCoin?
 ----------------
 
-BitsCoin (DGB) is a rapidly growing decentralized, global blockchain that was founded in early 2014 with a focus on cyber security, payments & secure communications technologies.
+Bits-Coin (BITS) is a rapidly growing decentralized, global blockchain that was founded in late 2021 with a focus on cyber security, payments & secure communications technologies.
 
-For more information, as well as an immediately useable, binary version of the BitsCoin Core software, see https://bitscoin.io
+For more information, as well as an immediately useable, binary version of the Bits-Coin Core software, see https://bitscoin.io
 
 BitsCoin FAQ
 -------------
-Launch Date: January 10th, 2014
+Launch Date: October 15th, 2021 Hard fork blockchain from Digibyte core v7.17.2 released under the terms of the MIT Open Source License Agreement
 
 Blockchain Type: Public, Decentralized, UTXO based, Multi-Algorithm
 
-Ticker Symbol: DGB
+Ticker Symbol: BITS
 
-Genesis Block Hash: "USA Today: 10/Jan/2014, Target: Data stolen from up to 110M customers"
+Genesis Block Hash: "The Evolution of Technology opens doors to a new decentralized financial freedom era "
 
 Max Total Supply: 21 Billion BitsCoins in 21 Years (2035)
 
@@ -21,7 +21,7 @@ Current Supply: 11,692,747,373 DGB (April 2019)
 
 Block Reward Reduction: 1% Monthly
 
-Current Block Reward: 688 DGB (April 2019)
+Current Block Reward: 1000 DGB (October 2021)
 
 Mining Algorithms: Five individual: SHA256, Scrypt, Groestl, Skein & Qubit
 
@@ -31,55 +31,48 @@ Algo Block Share: 20% Block Share Per Algo (5)
 
 Difficulty Retarget: Every 1 Block, 5 Separate Difficulties, independent difficulty for each Mining Algo
 
-SegWit Support: Yes. First major altcoin to successfully activate Segwit. (April 2017)
+SegWit Support: Yes. 
 
 Hardforks: 4. DigiShield, MultiAlgo, MultiShield, DigiSpeed
 
 Softforks: 3. SegWit, CSV, NVersionBits
 
-You can mine BitsCoin on one of five separate mining algorithms. Each algo averages out to mine 20% of new blocks. This allows for much greater decentralization than other blockchains. An attacker with 99% of of any individual algorithm would still be unable to hardfork the blockchain, making BitsCoin much more secure against PoW attacks than other blockchains.
+You can mine Bits-Coin on one of five separate mining algorithms. Each algo averages out to mine 20% of new blocks. This allows for much greater decentralization than other blockchains. An attacker with 99% of of any individual algorithm would still be unable to hardfork the blockchain, making Bits-Coin much more secure against PoW attacks than other blockchains.
 
-DigiShield Hardfork: Block 67,200, Feb. 28th, 2014
 
-MultiAlgo Hardfork: Block 145k, Sep. 1st 2014
-
-MultiShield Hardfork: Block 400k, Dec. 10th 2014
-
-DigiSpeed Hardfork: Block 1,430,000 Dec. 4th 2015
-
-BitsCoin vs Bitcoin
+Bits-Coin vs Bitcoin
 -------------------
 
-Security: 5 BitsCoin mining algorithms vs. 1 Bitcoin mining algorithm.
-BitsCoin mining is much more decentralized.
-BitsCoin mining algorithms can be changed out in the future to prevent centralization.
+Security: 5 Bits-Coin mining algorithms vs. 1 Bitcoin mining algorithm.
+Bits-Coin mining is much more decentralized.
+Bits-Coin mining algorithms can be changed out in the future to prevent centralization.
 
-Speed: BitsCoin transactions occur much faster than Bitcoin transactions.
+Speed: Bits-Coin transactions occur much faster than Bitcoin transactions.
 1-2 second transaction notifications.
-15 second BitsCoin blocks vs. 10 minute Bitcoin blocks.
-BitsCoin has 6x block confirmations 1.5 minutes vs. 1 hour with Bitcoin.
+15 second Bits-Coin blocks vs. 10 minute Bitcoin blocks.
+Bits-Coin has 6x block confirmations 1.5 minutes vs. 1 hour with Bitcoin.
 
-Transaction Volume: BitsCoin can handle many more transactions per second.
+Transaction Volume: Bits-Coin can handle many more transactions per second.
 Bitcoin can only handle 3-4 transactions per second.
-BitsCoin currently can handle 560+ transactions per second.
+Bits-Coin currently can handle 560+ transactions per second.
 The 2015 DigiSpeed hardfork introduced changes that double the capacity of the network every two years.
 
-Total Supply: More BitsCoins, lower price, more micro transactions, better price stability.
-21 billion BitsCoins will be created over 21 years.
+Total Supply: More Bits-Coin, lower price, more micro transactions, better price stability.
+21 billion Bits-Coin will be created over 21 years.
 Only 21 million Bitcoin will be created over 140 years.
-1:1000 ratio. 1 BitsCoin for every 1000 Bitcoin.
+1:1000 ratio. 1 Bits-Coin for every 1000 Bitcoin.
 
 Flexibility: Ability to quickly add new features.
-BitsCoin can add new features & upgrades much quicker than Bitcoin.
-Future BitsCoin upgrades will push transaction limit to several hundred thousand per second.
+Bits-Coin can add new features & upgrades much quicker than Bitcoin.
+Future Bits-Coin upgrades will push transaction limit to several hundred thousand per second.
 
-Marketability & Usability: BitsCoin is an easy brand to market to consumers.
-BitsCoins are much cheaper to acquire.
+Marketability & Usability: Bits-Coin is an easy brand to market to consumers.
+Bits-Coins are much cheaper to acquire.
 
 License
 -------
 
-BitsCoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Bits-Coin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
