@@ -15,13 +15,13 @@ Ticker Symbol: BITS
 
 Genesis Block Hash: "The Evolution of Technology opens doors to a new decentralized financial freedom era "
 
-Max Total Supply: 21 Billion BitsCoins in 21 Years (2035)
+Max Total Supply: 21 Billion BitsCoins in 39 Years (2059)
 
-Current Supply: 11,692,747,373 DGB (April 2019)
+Current Supply: 108,499,970 BITS (Oct 2021)
 
-Block Reward Reduction: 1% Monthly
+Block Reward Reduction: Reward Halving - 50% (Every 5 Years/10512000 Blocks)
 
-Current Block Reward: 1000 DGB (October 2021)
+Current Block Reward: 1000 BITS (Oct 2021)
 
 Mining Algorithms: Five individual: SHA256, Scrypt, Groestl, Skein & Qubit
 
@@ -31,11 +31,11 @@ Algo Block Share: 20% Block Share Per Algo (5)
 
 Difficulty Retarget: Every 1 Block, 5 Separate Difficulties, independent difficulty for each Mining Algo
 
-SegWit Support: Yes. 
+SegWit Support: No. 
 
-Hardforks: 4. DigiShield, MultiAlgo, MultiShield, DigiSpeed
 
-Softforks: 3. SegWit, CSV, NVersionBits
+
+
 
 You can mine Bits-Coin on one of five separate mining algorithms. Each algo averages out to mine 20% of new blocks. This allows for much greater decentralization than other blockchains. An attacker with 99% of of any individual algorithm would still be unable to hardfork the blockchain, making Bits-Coin much more secure against PoW attacks than other blockchains.
 
@@ -55,12 +55,12 @@ Bits-Coin has 6x block confirmations 1.5 minutes vs. 1 hour with Bitcoin.
 Transaction Volume: Bits-Coin can handle many more transactions per second.
 Bitcoin can only handle 3-4 transactions per second.
 Bits-Coin currently can handle 560+ transactions per second.
-The 2015 DigiSpeed hardfork introduced changes that double the capacity of the network every two years.
+
 
 Total Supply: More Bits-Coin, lower price, more micro transactions, better price stability.
-21 billion Bits-Coin will be created over 21 years.
+21 billion Bits-Coin will be created over 39 years.
 Only 21 million Bitcoin will be created over 140 years.
-1:1000 ratio. 1 Bits-Coin for every 1000 Bitcoin.
+
 
 Flexibility: Ability to quickly add new features.
 Bits-Coin can add new features & upgrades much quicker than Bitcoin.
@@ -79,7 +79,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitscoin/bitscoin/tags) are created
+completely stable. [Tags](https://github.com/Bits-Coin/bits-coin/) are created
 regularly to indicate new official, stable release versions of BitsCoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
