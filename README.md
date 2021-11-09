@@ -3,7 +3,13 @@ What is Bits-Coin?
 
 Bits-Coin (BITS) is a rapidly growing decentralized, global blockchain that was founded in late 2021 with a focus on cyber security, payments & secure communications technologies.
 
-For more information, as well as an immediately useable, binary version of the Bits-Coin Core software, see https://bitscoin.io
+For more information, as well as an immediately useable, binary version of the Bits-Coin Core software, refer below links
+
+Official mining Pool : https://pool.electro-Bits.com
+Official Wallet:  https:/webwallet.Bits-coin.io
+Official Explorer:  https:/explorer.Bits-coin.io
+
+
 
 Bits-Coin FAQ
 -------------
