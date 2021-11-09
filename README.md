@@ -21,7 +21,7 @@ Ticker Symbol: BITS
 
 Genesis Block Hash: "The Evolution of Technology opens doors to a new decentralized financial freedom era "
 
-Max Total Supply: 21 Billion BitsCoins in 39 Years (2059)
+Max Total Supply: 21 Billion Bits-Coins in 39 Years (2059)
 
 Current Supply: 108,499,970 BITS (Oct 2021)
 
