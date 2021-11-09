@@ -6,8 +6,8 @@ Bits-Coin (BITS) is a rapidly growing decentralized, global blockchain that was 
 For more information, as well as an immediately useable, binary version of the Bits-Coin Core software, refer below links
 
 Official mining Pool : https://pool.electro-Bits.com  
-Official Wallet:  https:/webwallet.Bits-coin.io  
-Official Explorer:  https:/explorer.Bits-coin.io  
+Official Wallet:  https://webwallet.Bits-coin.io  
+Official Explorer:  https://explorer.Bits-coin.io  
 
 
 
