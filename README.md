@@ -11,7 +11,7 @@ Official Wallet:  https://webwallet.Bits-coin.io
 
 Official Explorer:  https://explorer.Bits-coin.io
 
-Official Web site: https://Bits-coin.io (under consruction)
+Official Web site: https://Bits-coin.io (under construction)
 
 Official General crypto-currency info : www.Electro-bits.com 
 
@@ -20,6 +20,8 @@ Official General crypto-currency info : www.Electro-bits.com
 Bits-Coin FAQ
 -------------
 Launch Date: October 15th, 2021 Hard fork blockchain from Digibyte core v7.17.2 released under the terms of the MIT Open Source License Agreement
+
+Public Launch Date : November 15th, 2021 - 30 days after 100% stable mining 
 
 Blockchain Type: Public, Decentralized, UTXO based, Multi-Algorithm
 
