@@ -15,6 +15,8 @@ Official Web site: https://Bits-coin.io (under construction)
 
 Official General crypto-currency info : www.Electro-bits.com 
 
+Official Android App(Mobile Wallet): https://play.google.com/store/apps/details?id=com.bitscoin.bitswallet
+
 
 
 Bits-Coin FAQ
